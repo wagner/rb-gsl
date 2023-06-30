@@ -29,8 +29,8 @@ Gem::Specification.new do |s|
     installing #{s.name}.
   }
 
-  s.add_development_dependency 'rake-compiler', '>= 0'
-  s.add_development_dependency 'rake', '>= 0'
-  s.add_development_dependency 'test-unit', '>= 0'
-  s.add_development_dependency 'bundler', '~> 1.11'
+  s.add_development_dependency 'rake-compiler'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'test-unit'
+  s.add_development_dependency 'bundler'
 end
